@@ -84,8 +84,30 @@ You'll need to use sometype of collaborative software that will enable you both 
 
 *You do not need to actually make changes based on their feedback*. This acheivement is designed to help gain experience testing user interfaces. If you run two user studies, you should answer two sets of questions. 
 
+Important Notes
+---
+* For this and future assignments, you should choose **Web Service** instead of "Static Page" when uploading to Render. On the New Project page, you should leave all fields as their default values except under **Instance Type**, where you should select the free tier.
+* You are **strongly encouraged** to create a [.gitignore file](https://git-scm.com/docs/gitignore) that will keep your node_modules folder and any other stray files (such as package-lock.json) out of your online repo. 
+
+
 FAQ
 ---
+**Q: I'm getting a 404 error on render. Why?**
+
+A: Make sure that you've uploaded your project as a Web Service, not a Static Page. Also verify that any stray files (such as package-lock.json) are not in your online repository.
+
+**Q: What fields should I fill out in the package.json file?**
+
+A: Give the name field your project name and the version field 1.0.0. You can leave the others blank.
+
+**Q: On Windows, I'm getting an Execution Policy exception when starting npm.**
+
+A: You may need to make a policy change on your machine. Check out the following links for more information on how to fix it.
+
+* [npm Not Working (Reddit)](https://www.reddit.com/r/node/comments/1h6wer2/npm_not_working_on_windows_after_install_and/)
+* [Set-Execution Policy](https://www.pdq.com/powershell/set-executionpolicy/)
+* [Successfully Changing Execution Policy (StackOverflow)](https://stackoverflow.com/questions/27753917/how-do-you-successfully-change-execution-policy-and-enable-execution-of-powershe)
+
 **Q: Can I use frameworks for this assignment?**
 
 A: No. We'll discuss them later this term, but for right now, we want to see that you can implement these features yourself instead of outsourcing them to an existing framework or library.
